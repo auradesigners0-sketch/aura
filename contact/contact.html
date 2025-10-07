@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="page-title">Contact Us - Aura</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Aura</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" data-translate="nav-home">Home</a></li>
+                <li><a href="../about/about.html" data-translate="nav-about">About</a></li>
+                <li><a href="../index.html#services" data-translate="nav-services">Services</a></li>
+                <li><a href="../index.html#portfolio" data-translate="nav-portfolio">Portfolio</a></li>
+                <li><a href="contact.html" class="active" data-translate="nav-contact">Contact</a></li>
+            </ul>
+            <div class="lang-toggle">
+                <a href="#" id="langSwitch">SW</a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="contact-hero-bg"></div>
+        <div class="contact-hero-gradient"></div>
+        <div class="contact-hero-particles" id="contactParticles"></div>
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1 class="contact-hero-title" data-translate="contact-hero-title">Get In Touch</h1>
+                <p class="contact-hero-subtitle" id="contactHeroSubtitle" data-translate="contact-hero-subtitle">
+                    <!-- Text will be added by JavaScript for typing animation -->
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services We Offer Section -->
+    <section class="services-we-offer">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="services-title">Services We Offer</h2>
+            <div class="services-offer-grid">
+                <div class="service-offer-item">
+                    <div class="service-offer-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 data-translate="service-1-title">Web Design</h3>
+                    <p data-translate="service-1-desc">Creating visually stunning and user-friendly websites</p>
+                </div>
+                <div class="service-offer-item">
+                    <div class="service-offer-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-translate="service-2-title">Web Development</h3>
+                    <p data-translate="service-2-desc">Building robust and scalable web applications</p>
+                </div>
+                <div class="service-offer-item">
+                    <div class="service-offer-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 data-translate="service-3-title">Mobile Apps</h3>
+                    <p data-translate="service-3-desc">Native and cross-platform mobile application development</p>
+                </div>
+                <div class="service-offer-item">
+                    <div class="service-offer-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 data-translate="service-4-title">Hosting Solutions</h3>
+                    <p data-translate="service-4-desc">Secure and reliable hosting for your digital presence</p>
+                </div>
+                <div class="service-offer-item">
+                    <div class="service-offer-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-translate="service-5-title">Digital Marketing</h3>
+                    <p data-translate="service-5-desc">Strategic marketing to grow your online presence</p>
+                </div>
+                <div class="service-offer-item">
+                    <div class="service-offer-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 data-translate="service-6-title">SEO Optimization</h3>
+                    <p data-translate="service-6-desc">Improve your search engine rankings and visibility</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries We Serve Section -->
+    <section class="industries-we-serve">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="industries-title">Industries We Serve</h2>
+            <div class="industries-grid">
+                <div class="industry-item">
+                    <div class="industry-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 data-translate="industry-1-title">Education</h3>
+                </div>
+                <div class="industry-item">
+                    <div class="industry-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 data-translate="industry-2-title">Catering Services</h3>
+                </div>
+                <div class="industry-item">
+                    <div class="industry-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 data-translate="industry-3-title">E-commerce</h3>
+                </div>
+                <div class="industry-item">
+                    <div class="industry-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 data-translate="industry-4-title">Healthcare</h3>
+                </div>
+                <div class="industry-item">
+                    <div class="industry-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 data-translate="industry-5-title">Real Estate</h3>
+                </div>
+                <div class="industry-item">
+                    <div class="industry-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3 data-translate="industry-6-title">Tourism & Hospitality</h3>
+                </div>
+                <div class="industry-item">
+                    <div class="industry-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3 data-translate="industry-7-title">Finance</h3>
+                </div>
+                <div class="industry-item">
+                    <div class="industry-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3 data-translate="industry-8-title">Fitness & Wellness</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Info Section -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container fade-in-up">
+                    <h2 class="form-title" data-translate="form-title">Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName" data-translate="form-first-name">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName" data-translate="form-last-name">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-translate="form-email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-translate="form-phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="company" data-translate="form-company">Company/Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="companyType" data-translate="form-company-type">Company Type</label>
+                            <select id="companyType" name="companyType" required>
+                                <option value="" disabled selected data-translate="form-select-company-type">Select company type</option>
+                                <option value="school" data-translate="form-option-school">School</option>
+                                <option value="catering" data-translate="form-option-catering">Catering Service</option>
+                                <option value="ecommerce" data-translate="form-option-ecommerce">E-commerce</option>
+                                <option value="healthcare" data-translate="form-option-healthcare">Healthcare</option>
+                                <option value="realestate" data-translate="form-option-realestate">Real Estate</option>
+                                <option value="tourism" data-translate="form-option-tourism">Tourism & Hospitality</option>
+                                <option value="finance" data-translate="form-option-finance">Finance</option>
+                                <option value="fitness" data-translate="form-option-fitness">Fitness & Wellness</option>
+                                <option value="other" data-translate="form-option-other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="service" data-translate="form-service">Service You Need</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected data-translate="form-select-service">Select a service</option>
+                                <option value="web-design" data-translate="form-option-web-design">Web Design</option>
+                                <option value="web-development" data-translate="form-option-web-development">Web Development</option>
+                                <option value="mobile-app" data-translate="form-option-mobile-app">Mobile App Development</option>
+                                <option value="hosting" data-translate="form-option-hosting">Hosting Solutions</option>
+                                <option value="digital-marketing" data-translate="form-option-digital-marketing">Digital Marketing</option>
+                                <option value="seo" data-translate="form-option-seo">SEO Optimization</option>
+                                <option value="consultation" data-translate="form-option-consultation">Consultation</option>
+                                <option value="other" data-translate="form-option-other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-translate="form-message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter" data-translate="form-newsletter">I'd like to receive newsletters and updates from Aura</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy" data-translate="form-privacy">I agree to the privacy policy and terms of service</label>
+                        </div>
+                        <button type="submit" class="submit-btn" data-translate="form-submit">Send Message</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-container fade-in-up">
+                    <h2 class="info-title" data-translate="info-title">Contact Information</h2>
+                    
+                    <div class="contact-info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3 data-translate="info-address-title">Address</h3>
+                            <p data-translate="info-address">123 Ubunifu Street, Kinondoni, Dar es Salaam, Tanzania</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3 data-translate="info-phone-title">Phone</h3>
+                            <p><a href="tel:+255712345678" data-translate="info-phone">+255 712 345 678</a></p>
+                            <p><a href="tel:+255722987654" data-translate="info-phone-alt">+255 722 987 654</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3 data-translate="info-email-title">Email</h3>
+                            <p><a href="mailto:hello@aura.co.tz" data-translate="info-email">hello@aura.co.tz</a></p>
+                            <p><a href="mailto:support@aura.co.tz" data-translate="info-email-support">support@aura.co.tz</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3 data-translate="info-hours-title">Business Hours</h3>
+                            <p data-translate="info-hours-weekdays">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p data-translate="info-hours-saturday">Saturday: 10:00 AM - 4:00 PM</p>
+                            <p data-translate="info-hours-sunday">Sunday: Closed</p>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <h3 data-translate="social-title">Connect With Us</h3>
+                        <div class="social-links">
+                            <a href="https://facebook.com/auradigital" target="_blank" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com/auradigital" target="_blank" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com/auradigital" target="_blank" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://linkedin.com/company/auradigital" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://wa.me/255712345678" target="_blank" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://youtube.com/c/auradigital" target="_blank" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="map-title">Find Us</h2>
+            <div class="map-container">
+                <div class="map-wrapper fade-in-up">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.817321947718!2d39.2089!3d-6.7921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNDcnMzUuNiJTIDM5wrA4JzEyLjQiRQ!5e0!3m2!1sen!2stz!4v1623456789012!5m2!1sen!2stz" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        title="Aura Office Location">
+                    </iframe>
+                </div>
+                <div class="map-info fade-in-up">
+                    <h3 data-translate="map-office-title">Our Dar es Salaam Office</h3>
+                    <p data-translate="map-office-description">
+                        Located in the heart of Kinondoni, our office is easily accessible by public transport and has ample parking available. We welcome visitors for scheduled meetings and consultations.
+                    </p>
+                    <div class="map-directions">
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=123+Ubunifu+Street,+Kinondoni,+Dar+es+Salaam,+Tanzania" target="_blank" class="directions-btn" data-translate="map-directions">Get Directions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="faq-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item fade-in-up">
+                    <div class="faq-question">
+                        <h3 data-translate="faq-1-question">What services does Aura offer?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq-1-answer">
+                            Aura offers a comprehensive range of digital services including web design and development, mobile app development, UI/UX design, hosting solutions, and digital marketing. We work with clients across various industries to create tailored solutions that meet their specific needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in-up">
+                    <div class="faq-question">
+                        <h3 data-translate="faq-2-question">How long does a typical project take?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq-2-answer">
+                            Project timelines vary depending on complexity and scope. A simple website might take 4-6 weeks, while a complex web application could take 3-6 months. We provide detailed timelines during the planning phase and keep clients updated throughout the development process.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in-up">
+                    <div class="faq-question">
+                        <h3 data-translate="faq-3-question">Do you work with international clients?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq-3-answer">
+                            Yes, we work with clients both locally and internationally. Our team is experienced in remote collaboration and we have systems in place to ensure smooth communication and project management regardless of location.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in-up">
+                    <div class="faq-question">
+                        <h3 data-translate="faq-4-question">What is your pricing structure?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq-4-answer">
+                            Our pricing is project-based and depends on the specific requirements, complexity, and timeline. We provide detailed quotes after an initial consultation to understand your needs. We offer flexible payment plans and are transparent about all costs upfront.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Aura</h2>
+                    <p>Design · Develop · Host</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html" data-translate="nav-home">Home</a></li>
+                        <li><a href="about.html" data-translate="nav-about">About</a></li>
+                        <li><a href="contact.html" data-translate="nav-contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p data-translate="footer-phone">+255 712 345 678</p>
+                    <p data-translate="footer-email">hello@aura.co.tz</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- Location & Hours Block -->
+                <div class="footer-location-hours">
+                    <h3 data-translate="footer-location-title">Location & Hours</h3>
+                    <address>
+                        <p data-translate="footer-address">123 Ubunifu Street, Kinondoni, Dar es Salaam, Tanzania</p>
+                    </address>
+                    <div class="hours">
+                        <p><strong data-translate="footer-hours-title">Working Hours:</strong></p>
+                        <p data-translate="footer-hours">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        <p data-translate="footer-weekend">Saturday: 10:00 AM - 4:00 PM</p>
+                        <p data-translate="footer-sunday">Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aura. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Reference to external JavaScript file -->
+    <script src="contact.js"></script>
+</body>
+</html>

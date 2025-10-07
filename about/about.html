@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="page-title">About Us - Aura</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Aura</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" data-translate="nav-home">Home</a></li>
+                <li><a href="about.html" class="active" data-translate="nav-about">About</a></li>
+                <li><a href="../index.html#services" data-translate="nav-services">Services</a></li>
+                <li><a href="../index.html#portfolio" data-translate="nav-portfolio">Portfolio</a></li>
+                <li><a href="../contact/contact.html" data-translate="nav-contact">Contact</a></li>
+            </ul>
+            <div class="lang-toggle">
+                <a href="#" id="langSwitch">SW</a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="about-hero">
+        <div class="about-hero-bg"></div>
+        <div class="about-hero-gradient"></div>
+        <div class="about-hero-particles" id="aboutParticles"></div>
+        <div class="container">
+            <div class="about-hero-content">
+                <h1 class="about-hero-title" data-translate="about-hero-title">About Aura</h1>
+                <p class="about-hero-subtitle" id="aboutHeroSubtitle" data-translate="about-hero-subtitle">
+                    <!-- Text will be added by JavaScript for typing animation -->
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="our-story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-content fade-in-up">
+                    <h2 class="section-title" data-translate="our-story-title">Our Story</h2>
+                    <p data-translate="story-text-1">
+                        Founded in 2020, Aura emerged from a simple yet powerful vision: to create digital experiences that transcend the ordinary. What began as a small team of passionate developers and designers has grown into a full-service digital agency serving clients across Africa and beyond.
+                    </p>
+                    <p data-translate="story-text-2">
+                        Our journey has been defined by innovation, excellence, and an unwavering commitment to our clients' success. We've helped startups launch their first products, established enterprises transform their digital presence, and nonprofits amplify their impact through technology.
+                    </p>
+                    <p data-translate="story-text-3">
+                        Today, Aura stands as a testament to what's possible when creativity meets technical expertise. We continue to push boundaries, challenge conventions, and deliver solutions that not only meet expectations but exceed them.
+                    </p>
+                </div>
+                <div class="story-image fade-in-up">
+                    <img src="https://picsum.photos/seed/team-working/600/400.jpg" alt="Our Team Working">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="mission-vision">
+        <div class="container">
+            <div class="mission-vision-grid">
+                <div class="mission-card fade-in-up">
+                    <div class="mission-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 data-translate="mission-title">Our Mission</h3>
+                    <p data-translate="mission-text">
+                        To be the premier digital partner for African businesses and institutions, blending global design excellence with local soul to create powerful, lasting digital legacies.
+                    </p>
+                </div>
+                <div class="vision-card fade-in-up">
+                    <div class="vision-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 data-translate="vision-title">Our Vision</h3>
+                    <p data-translate="vision-text">
+                        To transform how African businesses connect with their audiences through innovative digital solutions that inspire, engage, and deliver measurable results.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="core-values">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="values-title">Our Core Values</h2>
+            <div class="values-grid">
+                <div class="value-card fade-in-up">
+                    <div class="value-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 data-translate="value-1-title">Innovation</h3>
+                    <p data-translate="value-1-text">
+                        We constantly explore new technologies and creative approaches to deliver cutting-edge solutions that set our clients apart.
+                    </p>
+                </div>
+                <div class="value-card fade-in-up">
+                    <div class="value-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 data-translate="value-2-title">Excellence</h3>
+                    <p data-translate="value-2-text">
+                        We pursue perfection in every project, ensuring the highest quality standards and attention to detail in everything we create.
+                    </p>
+                </div>
+                <div class="value-card fade-in-up">
+                    <div class="value-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 data-translate="value-3-title">Integrity</h3>
+                    <p data-translate="value-3-text">
+                        We build relationships based on trust, transparency, and ethical business practices that honor our commitments.
+                    </p>
+                </div>
+                <div class="value-card fade-in-up">
+                    <div class="value-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-translate="value-4-title">Collaboration</h3>
+                    <p data-translate="value-4-text">
+                        We believe in the power of partnership, working closely with clients to transform their vision into reality.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="team-title">Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member fade-in-up">
+                    <div class="member-image">
+                        <img src="https://picsum.photos/seed/ceo/300/300.jpg" alt="CEO">
+                    </div>
+                    <div class="member-info">
+                        <h3 data-translate="team-1-name">Alex Johnson</h3>
+                        <p class="member-role" data-translate="team-1-role">CEO & Founder</p>
+                        <p class="member-bio" data-translate="team-1-bio">
+                            Visionary leader with 15+ years in digital innovation, passionate about transforming businesses through technology.
+                        </p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member fade-in-up">
+                    <div class="member-image">
+                        <img src="https://picsum.photos/seed/cto/300/300.jpg" alt="CTO">
+                    </div>
+                    <div class="member-info">
+                        <h3 data-translate="team-2-name">Sarah Chen</h3>
+                        <p class="member-role" data-translate="team-2-role">CTO</p>
+                        <p class="member-bio" data-translate="team-2-bio">
+                            Technical architect with expertise in scalable solutions and emerging technologies.
+                        </p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member fade-in-up">
+                    <div class="member-image">
+                        <img src="https://picsum.photos/seed/design-lead/300/300.jpg" alt="Design Lead">
+                    </div>
+                    <div class="member-info">
+                        <h3 data-translate="team-3-name">Michael Osei</h3>
+                        <p class="member-role" data-translate="team-3-role">Creative Director</p>
+                        <p class="member-bio" data-translate="team-3-bio">
+                            Award-winning designer focused on creating intuitive, beautiful user experiences.
+                        </p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member fade-in-up">
+                    <div class="member-image">
+                        <img src="https://picsum.photos/seed/project-manager/300/300.jpg" alt="Project Manager">
+                    </div>
+                    <div class="member-info">
+                        <h3 data-translate="team-4-name">Grace Kimani</h3>
+                        <p class="member-role" data-translate="team-4-role">Head of Operations</p>
+                        <p class="member-bio" data-translate="team-4-bio">
+                            Operations expert ensuring smooth project delivery and exceptional client satisfaction.
+                        </p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in-up">
+                    <div class="stat-number" data-target="150">0</div>
+                    <p class="stat-label" data-translate="stat-1-label">Projects Completed</p>
+                </div>
+                <div class="stat-item fade-in-up">
+                    <div class="stat-number" data-target="98">0</div>
+                    <p class="stat-label" data-translate="stat-2-label">Happy Clients</p>
+                </div>
+                <div class="stat-item fade-in-up">
+                    <div class="stat-number" data-target="12">0</div>
+                    <p class="stat-label" data-translate="stat-3-label">Team Members</p>
+                </div>
+                <div class="stat-item fade-in-up">
+                    <div class="stat-number" data-target="5">0</div>
+                    <p class="stat-label" data-translate="stat-4-label">Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content fade-in-up">
+                <h2 data-translate="cta-title">Ready to Start Your Project?</h2>
+                <p data-translate="cta-text">
+                    Let's work together to bring your vision to life. Contact us today for a consultation.
+                </p>
+                <a href="index.html#contact" class="cta-button" data-translate="cta-button">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Aura</h2>
+                    <p>Design · Develop · Host</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html" data-translate="nav-home">Home</a></li>
+                        <li><a href="about.html" data-translate="nav-about">About</a></li>
+                        <li><a href="contact.html" data-translate="nav-contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p data-translate="footer-phone">+254 700 123 456</p>
+                    <p data-translate="footer-email">hello@aura.co.ke</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- Location & Hours Block -->
+                <div class="footer-location-hours">
+                    <h3 data-translate="footer-location-title">Location & Hours</h3>
+                    <address>
+                        <p data-translate="footer-address">123 Design Lane, Creative City, CC 12345, Kenya</p>
+                    </address>
+                    <div class="hours">
+                        <p><strong data-translate="footer-hours-title">Working Hours:</strong></p>
+                        <p data-translate="footer-hours">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        <p data-translate="footer-weekend">Saturday: 10:00 AM - 4:00 PM</p>
+                        <p data-translate="footer-sunday">Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aura. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Reference to external JavaScript file -->
+    <script src="about.js"></script>
+</body>
+</html>

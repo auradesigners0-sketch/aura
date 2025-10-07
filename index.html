@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="page-title">Aura - Design · Develop · Host</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Aura</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active" data-translate="nav-home">Home</a></li>
+                <li><a href="about/about.html" data-translate="nav-about">About</a></li>
+                <li><a href="#services" data-translate="nav-services">Services</a></li>
+                <li><a href="#portfolio" data-translate="nav-portfolio">Portfolio</a></li>
+                <li><a href="contact/contact.html" data-translate="nav-contact">Contact</a></li>
+            </ul>
+            <div class="lang-toggle">
+                <a href="#" id="langSwitch">SW</a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-gradient"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-bg-animation">
+            <div class="keyword" data-translate="keyword-1">Innovation</div>
+            <div class="keyword" data-translate="keyword-2">Excellence</div>
+            <div class="keyword" data-translate="keyword-3">Legacy</div>
+            <div class="keyword" data-translate="keyword-4">Impact</div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title" id="heroTitle" data-translate="hero-title">Design · Develop · Host</h1>
+            <p class="hero-subtitle" id="heroSubtitle" data-translate="hero-subtitle">
+                <!-- Text will be added by JavaScript for typing animation -->
+            </p>
+            <div class="hero-cta" id="heroCta">
+                <a href="#contact" class="cta-button" data-translate="hero-cta">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="about-title">About Us</h2>
+            <div class="about-content fade-in-up">
+                <p data-translate="about-text">
+                    Aura exists to empower entrepreneurs and institutions with digital solutions that transcend the ordinary. We believe in crafting experiences that not only function flawlessly but also tell a story of heritage, innovation, and purpose. In a world of fleeting digital trends, we build lasting digital legacies.
+                </p>
+                <p data-translate="mission-text">
+                    Our Mission: To be the premier digital partner for African businesses and institutions, blending global design excellence with local soul to create powerful, lasting legacies.
+                </p>
+                <a href="#contact" class="cta-link" data-translate="about-cta">Learn More About Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="services-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 data-translate="service-1-title">Design</h3>
+                    <p data-translate="service-1-text">
+                        Creating visually stunning interfaces that blend aesthetic appeal with intuitive functionality, tailored to your unique brand identity.
+                    </p>
+                    <a href="#contact" class="service-cta" data-translate="service-cta">Request a Proposal</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-translate="service-2-title">Develop</h3>
+                    <p data-translate="service-2-text">
+                        Building robust, scalable digital solutions with clean code and cutting-edge technology to power your vision.
+                    </p>
+                    <a href="#contact" class="service-cta" data-translate="service-cta">Request a Proposal</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 data-translate="service-3-title">Host</h3>
+                    <p data-translate="service-3-text">
+                        Providing secure, reliable hosting solutions that ensure your digital presence remains accessible and performs optimally.
+                    </p>
+                    <a href="#contact" class="service-cta" data-translate="service-cta">Request a Proposal</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="portfolio-title">Our Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://picsum.photos/seed/project1/400/250.jpg" alt="Project 1">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p class="portfolio-tagline">Modern Shopping Experience</p>
+                        <a href="https://example.com/project1" class="portfolio-preview-btn" target="_blank">
+                            <span data-translate="portfolio-preview">Preview</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://picsum.photos/seed/project2/400/250.jpg" alt="Project 2">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Educational Portal</h3>
+                        <p class="portfolio-tagline">Digital Learning Solution</p>
+                        <a href="https://example.com/project2" class="portfolio-preview-btn" target="_blank">
+                            <span data-translate="portfolio-preview">Preview</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://picsum.photos/seed/project3/400/250.jpg" alt="Project 3">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Corporate Website</h3>
+                        <p class="portfolio-tagline">Professional Online Presence</p>
+                        <a href="https://example.com/project3" class="portfolio-preview-btn" target="_blank">
+                            <span data-translate="portfolio-preview">Preview</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://picsum.photos/seed/project4/400/250.jpg" alt="Project 4">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Mobile Banking App</h3>
+                        <p class="portfolio-tagline">Secure Financial Platform</p>
+                        <a href="https://example.com/project4" class="portfolio-preview-btn" target="_blank">
+                            <span data-translate="portfolio-preview">Preview</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://picsum.photos/seed/project5/400/250.jpg" alt="Project 5">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Healthcare System</h3>
+                        <p class="portfolio-tagline">Patient Management Solution</p>
+                        <a href="https://example.com/project5" class="portfolio-preview-btn" target="_blank">
+                            <span data-translate="portfolio-preview">Preview</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://picsum.photos/seed/project6/400/250.jpg" alt="Project 6">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Real Estate Platform</h3>
+                        <p class="portfolio-tagline">Property Management System</p>
+                        <a href="https://example.com/project6" class="portfolio-preview-btn" target="_blank">
+                            <span data-translate="portfolio-preview">Preview</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-cta">
+                <a href="#contact" class="cta-button" data-translate="portfolio-cta">See More Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audience Section -->
+    <section class="audience">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="audience-title">Who We Serve</h2>
+            <div class="audience-grid">
+                <div class="audience-block">
+                    <img src="https://picsum.photos/seed/companies/400/300.jpg" alt="Companies">
+                    <div class="audience-overlay"></div>
+                    <div class="audience-block-content">
+                        <i class="fas fa-building"></i>
+                        <p data-translate="audience-1-desc">Driving business growth</p>
+                        <h4 data-translate="audience-1-title">Companies</h4>
+                    </div>
+                </div>
+                <div class="audience-block">
+                    <img src="https://picsum.photos/seed/schools/400/300.jpg" alt="Schools">
+                    <div class="audience-overlay"></div>
+                    <div class="audience-block-content">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p data-translate="audience-2-desc">Empowering future leaders</p>
+                        <h4 data-translate="audience-2-title">Schools</h4>
+                    </div>
+                </div>
+                <div class="audience-block">
+                    <img src="https://picsum.photos/seed/churches/400/300.jpg" alt="Churches">
+                    <div class="audience-overlay"></div>
+                    <div class="audience-block-content">
+                        <i class="fas fa-church"></i>
+                        <p data-translate="audience-3-desc">Building digital communities</p>
+                        <h4 data-translate="audience-3-title">Churches</h4>
+                    </div>
+                </div>
+                <div class="audience-block">
+                    <img src="https://picsum.photos/seed/charities/400/300.jpg" alt="Charities">
+                    <div class="audience-overlay"></div>
+                    <div class="audience-block-content">
+                        <i class="fas fa-heart"></i>
+                        <p data-translate="audience-4-desc">Amplifying noble causes</p>
+                        <h4 data-translate="audience-4-title">Charities</h4>
+                    </div>
+                </div>
+                <div class="audience-block">
+                    <img src="https://picsum.photos/seed/engineers/400/300.jpg" alt="Engineers">
+                    <div class="audience-overlay"></div>
+                    <div class="audience-block-content">
+                        <i class="fas fa-hard-hat"></i>
+                        <p data-translate="audience-5-desc">Structuring a better world</p>
+                        <h4 data-translate="audience-5-title">Engineers</h4>
+                    </div>
+                </div>
+                <div class="audience-block">
+                    <img src="https://picsum.photos/seed/architects/400/300.jpg" alt="Architects">
+                    <div class="audience-overlay"></div>
+                    <div class="audience-block-content">
+                        <i class="fas fa-drafting-compass"></i>
+                        <p data-translate="audience-6-desc">Designing dream spaces</p>
+                        <h4 data-translate="audience-6-title">Architects</h4>
+                    </div>
+                </div>
+                <div class="audience-block">
+                    <img src="https://picsum.photos/seed/entrepreneurs/400/300.jpg" alt="Entrepreneurs">
+                    <div class="audience-overlay"></div>
+                    <div class="audience-block-content">
+                        <i class="fas fa-rocket"></i>
+                        <p data-translate="audience-7-desc">Launching visionary ideas</p>
+                        <h4 data-translate="audience-7-title">Entrepreneurs</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Preview Section -->
+    <section class="contact-preview" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in-up" data-translate="contact-title">Get In Touch</h2>
+            <div class="contact-info fade-in-up">
+                <div class="contact-item">
+                    <a href="tel:+254700123456">
+                        <i class="fas fa-phone"></i>
+                        <span data-translate="footer-phone">+254 700 123 456</span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="mailto:hello@aura.co.ke">
+                        <i class="fas fa-envelope"></i>
+                        <span data-translate="footer-email">hello@aura.co.ke</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-cta fade-in-up">
+                <a href="contact.html" class="cta-button" data-translate="contact-cta">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Aura</h2>
+                    <p>Design · Develop · Host</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html" data-translate="nav-home">Home</a></li>
+                        <li><a href="about.html" data-translate="nav-about">About</a></li>
+                        <li><a href="contact.html" data-translate="nav-contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p data-translate="footer-phone">+254 700 123 456</p>
+                    <p data-translate="footer-email">hello@aura.co.ke</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- Location & Hours Block -->
+                <div class="footer-location-hours">
+                    <h3 data-translate="footer-location-title">Location & Hours</h3>
+                    <address>
+                        <p data-translate="footer-address">123 Design Lane, Creative City, CC 12345, Kenya</p>
+                    </address>
+                    <div class="hours">
+                        <p><strong data-translate="footer-hours-title">Working Hours:</strong></p>
+                        <p data-translate="footer-hours">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        <p data-translate="footer-weekend">Saturday: 10:00 AM - 4:00 PM</p>
+                        <p data-translate="footer-sunday">Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aura. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Reference to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
