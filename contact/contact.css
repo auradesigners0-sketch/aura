@@ -16,7 +16,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://picsum.photos/seed/contact-hero/1920/800.jpg');
+    background-image: url('../images/contact.png');
     background-size: cover;
     background-position: center;
     z-index: -2;
@@ -732,11 +732,6 @@
         gap: 20px;
     }
     
-    .industries-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 20px;
-    }
-    
     .map-wrapper iframe {
         height: 300px;
     }
@@ -754,6 +749,13 @@
     .social-links a {
         width: 40px;
         height: 40px;
+    }
+
+    .industries-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 5px;
+        padding: 8px;
     }
 }
 
@@ -804,6 +806,13 @@
     
     .faq-question {
         padding: 15px 20px;
+    }
+
+    .industries-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 5px;
+        padding: 8px;
     }
     
     .faq-question h3 {
@@ -856,6 +865,7 @@
         height: 50px;
         font-size: 1.3rem;
     }
+
     
     .form-title,
     .info-title {

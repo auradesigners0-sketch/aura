@@ -14,6 +14,8 @@
     --bg-light: #f8f9fa;
     --bg-gray: #f1f3f5;
     --border-color: #e9ecef;
+    --gold:#f8c556;
+    --hover-gold:#ffae00;
     --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.07);
     --shadow-medium: 0 10px 25px rgba(0, 0, 0, 0.1);
     --shadow-heavy: 0 20px 40px rgba(0, 0, 0, 0.15);
@@ -125,14 +127,14 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: 10px 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .logo h1 {
     font-size: 2rem;
-    color: var(--text-primary);
+    color: var(--gold);
     margin: 0;
     font-weight: 700;
 }
@@ -153,18 +155,18 @@ section {
 
 .nav-menu a {
     font-weight: 500;
-    color: var(--text-primary);
+    color: #e4e6fa;
     position: relative;
     font-size: 1rem;
     transition: all 0.3s ease;
 }
 
 .nav-menu a:hover {
-    color: var(--accent);
+    color: var(--hover-gold);
 }
 
 .nav-menu a.active {
-    color: var(--accent);
+    color: var(--hover-gold);
 }
 
 .nav-menu a::after {
@@ -174,7 +176,7 @@ section {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--accent);
+    background-color: var(--hover-gold);
     transition: width 0.3s ease;
 }
 
@@ -184,7 +186,7 @@ section {
 }
 
 .lang-toggle a {
-    color: var(--accent);
+    color: var(--gold);
     font-weight: 600;
     font-size: 0.9rem;
     padding: 8px 16px;
@@ -194,9 +196,9 @@ section {
 }
 
 .lang-toggle a:hover {
-    background-color: var(--accent);
-    color: var(--primary-light);
-    border-color: var(--accent);
+    background-color: transparent;
+    color: var(--hover-gold);
+    border-color: var(--hover-gold);
 }
 
 .hamburger {
@@ -242,7 +244,7 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://picsum.photos/seed/hero-bg/1920/1080.jpg');
+    background-image: url('images/herosection.png');
     background-size: cover;
     background-position: center;
     z-index: -2;
@@ -253,9 +255,9 @@ section {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 40%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 100%);
-    z-index: -1;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.999) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
 }
 
 .hero-content {
@@ -286,8 +288,8 @@ section {
 }
 
 .typing-cursor {
-    color: var(--accent);
-    font-weight: bold;
+    color: transparent;
+    font-weight: none;
     animation: none;
 }
 
@@ -314,9 +316,10 @@ section {
     position: absolute;
     font-family: 'Playfair Display', serif;
     font-size: clamp(3rem, 8vw, 6rem);
-    color: var(--accent);
-    opacity: 0.2;
+    color: var(--hover-gold);
+    opacity: 0.9;
     animation: float 25s infinite ease-in-out;
+    z-index: 10000;
 }
 
 .keyword:nth-child(1) { top: 20%; left: 10%; animation-delay: 0s; }
@@ -381,7 +384,7 @@ section {
     width: 80px;
     height: 80px;
     margin: 0 auto 25px;
-    background: linear-gradient(135deg, var(--accent), #8b5cf6);
+    background: linear-gradient(135deg, var(--gold), #3c3b41);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -913,6 +916,13 @@ section {
         flex-direction: column;
         gap: 25px;
     }
+
+    .audience-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 16px;
+        padding: 16px;
+    }
     
     .footer-content {
         grid-template-columns: 1fr;
@@ -946,6 +956,13 @@ section {
     .audience-grid {
         grid-template-columns: 1fr;
         gap: 25px;
+    }
+
+    .audience-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 5px;
+        padding: 8px;
     }
     
     .audience-block-content {

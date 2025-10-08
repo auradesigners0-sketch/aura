@@ -388,6 +388,13 @@
     .cta-content h2 {
         font-size: 2rem;
     }
+
+     .team-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 5px;
+        padding: 2px;
+    }
 }
 
 @media (max-width: 576px) {

@@ -168,15 +168,15 @@ document.addEventListener('DOMContentLoaded', function() {
             "form-privacy": "Nakubali sera ya faragha na masharti ya huduma",
             "form-submit": "Tuma Ujumbe",
             "form-success": "Asante kwa ujumbe wako! Tutakujibu hivi karibuni.",
-            "form-error": "Kulikuwa na kosa katika kutuma ujumbe wako. Tafadhali jaribu tena.",
+            "form-error": "Ujumbe wako haujatumwa kikamilifu. Tafadhali jaribu tena.",
             "info-title": "Maelezo ya Mawasiliano",
             "info-address-title": "Anwani",
-            "info-address": "123 Barabara ya Ubunifu, Kinondoni, Dar es Salaam, Tanzania",
+            "info-address": "Goba center, Kinondoni, Dar es salaam, Tanzania",
             "info-phone-title": "Simu",
-            "info-phone": "+255 712 345 678",
-            "info-phone-alt": "+255 722 987 654",
+            "info-phone": "+255 717 043 283",
+            "info-phone-alt": "+255 717 043 283",
             "info-email-title": "Barua pepe",
-            "info-email": "hello@aura.co.tz",
+            "info-email": "auradesigners0@gmail.com",
             "info-email-support": "support@aura.co.tz",
             "info-hours-title": "Masaa ya Biashara",
             "info-hours-weekdays": "Jumatatu - Ijumaa: 9:00 AM - 6:00 PM",
@@ -185,24 +185,24 @@ document.addEventListener('DOMContentLoaded', function() {
             "social-title": "Unganisha Nasi",
             "map-title": "Tutafute",
             "map-office-title": "Ofisi Yetu ya Dar es Salaam",
-            "map-office-description": "Iko katikati ya Kinondoni, ofisi yetu inafikika kirahisi na usafiri wa umma na kuna maegesho mengi yanayopatikana. Tunakaribisha wageni kwa mikutano ya mpango na ushauri.",
+            "map-office-description": "Iko katikati ya Goba Center, ofisi yetu inafikika kirahisi na usafiri wa umma na kuna maegesho mengi yanayopatikana. Tunakaribisha wageni kwa mikutano ya mpango na ushauri.",
             "map-directions": "Pata Maelekezo",
             "faq-title": "Maswali Yanayoulizwa Mara nyingi",
             "faq-1-question": "Aura inatoa huduma gani?",
             "faq-1-answer": "Aura inatoa safu kamili ya huduma za kidijitali ikiwemo ubunifu na maendeleo ya tovuti, maendeleo ya programu za simu, ubunifu wa UI/UX, suluhisho za kuweka mahali, na masoko ya kidijitali. Tunafanya kazi na wateja katika viwanda mbalimbali kuunda suluhisho zinazolingana na mahitaji yao maalum.",
             "faq-2-question": "Mradi wa kawaida unachukua muda gani?",
-            "faq-2-answer": "Muda wa mradi hutofautiana kulingana na ugumu na kipenyo. Tovuti rahisi inaweza kuchukua wiki 4-6, wakati programu ya tovuti ngumu inaweza kuchukua miezi 3-6. Tunatoa maelezo ya kina ya muda wakati wa awamu ya upangaji na tunawawasha wateja wakati wa mchakato wa maendeleo.",
+            "faq-2-answer": "Muda wa mradi hutofautiana kulingana na ugumu na kipenyo. Tovuti rahisi inaweza kuchukua wiki 2-4, wakati programu ya tovuti ngumu inaweza kuchukua miezi 3-6. Tunatoa maelezo ya kina ya muda wakati wa awamu ya upangaji na tunawawasha wateja wakati wa mchakato wa maendeleo.",
             "faq-3-question": "Mnafanya kazi na wateja wa kimataifa?",
             "faq-3-answer": "Ndio, tunafanya kazi na wateja wa ndani na wa kimataifa. Timu yetu ina uzoefu katika ushirikiano wa mbali na tuna mifumo iliyojengwa kuhakikisha mawasiliano laini na usimamizi wa mradi bila kujali eneo.",
             "faq-4-question": "Muundo wako wa bei ni upi?",
             "faq-4-answer": "Bei yetu inatokana na mradi na inategemea mahitaji maalum, ugumu, na muda. Tunatoa nukuu za kina baada ya ushauri wa awali kuelewa mahitaji yako. Tunatoa mpango wa malipo wenye urahisi na ni wazi kuhusu gharama zote mapema.",
-            "footer-phone": "+255 712 345 678",
-            "footer-email": "hello@aura.co.tz",
+            "footer-phone": "+255 717 043 283",
+            "footer-email": "auradesigners0@gmail.com",
             "footer-location-title": "Mahali & Masaa",
-            "footer-address": "123 Barabara ya Ubunifu, Kinondoni, Dar es Salaam, Tanzania",
+            "footer-address": "Goba, Kinondoni, Dar es Salaam, Tanzania",
             "footer-hours-title": "Masaa ya Kazi:",
-            "footer-hours": "Jumatatu - Ijumaa: 9:00 AM - 6:00 PM",
-            "footer-weekend": "Jumamosi: 10:00 AM - 4:00 PM",
+            "footer-hours": "Jumatatu - Ijumaa: 8:00 AM - 6:00 PM",
+            "footer-weekend": "Jumamosi: 8:00 AM - 2:00 PM",
             "footer-sunday": "Jumapili: Imefungwa"
         }
     };
@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const handleScroll = debounce(() => {
         if (window.scrollY > 50) {
-            header.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+            header.style.backgroundColor = 'rgba(56, 50, 22, 0.95)';
             header.style.backdropFilter = 'blur(10px)';
             header.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
         } else {

@@ -103,13 +103,13 @@ document.addEventListener('DOMContentLoaded', function() {
             "cta-title": "Uko Tayari Kuanza Mradi Wako?",
             "cta-text": "Tufanye kazi pamoja kuuleta maono yako kweli. Wasiliana nasi leo kwa ushauri.",
             "cta-button": "Wasiliana Nasi",
-            "footer-phone": "+254 700 123 456",
-            "footer-email": "hello@aura.co.ke",
+            "footer-phone": "+254 717 043 283",
+            "footer-email": "auradesigners0@gmail.com",
             "footer-location-title": "Mahali & Masaa",
-            "footer-address": "123 Barabara ya Ubunifu, Jiji la Ubunifu, CC 12345, Kenya",
+            "footer-address": "Goba, Kinondoni, Dar es Salaam, Tanzania",
             "footer-hours-title": "Masaa ya Kazi:",
-            "footer-hours": "Jumatatu - Ijumaa: 9:00 AM - 6:00 PM",
-            "footer-weekend": "Jumamosi: 10:00 AM - 4:00 PM",
+            "footer-hours": "Jumatatu - Ijumaa: 8:00 AM - 6:00 PM",
+            "footer-weekend": "Jumamosi: 8:00 AM - 2:00 PM",
             "footer-sunday": "Jumapili: Imefungwa"
         }
     };
